@@ -1,0 +1,19 @@
+.win{
+    border:1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color:rgb(85, 155, 202);
+    text-align: center;
+}
+
+
+.log{
+    background-color:rgb(233, 231, 224);
+    height: 185px;
+    width: 360px;
+    padding: 12px;
+    border-radius:30px;
+}
