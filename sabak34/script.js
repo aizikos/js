@@ -11,9 +11,8 @@ for (var i = 0; i< first.length;i++){
 console.log(array);
 // B)
 
-var second = ["first", "second", "third" ];
+let m = ["first", "second", "third" ]
 
-var arr = Array.prototype.slice.call(second);
-
-console.log(arr);
-
+for(let i = 0; i < m.length; i++){
+    console.log(m[i].split(''))
+}

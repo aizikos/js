@@ -9,14 +9,14 @@ circleLength();
 
 
 //Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b:
-function min(a, b) {
-    if (a < b) {
+function checkMin(a,b){
+  a = +prompt("Ваше число?");
+  b = +prompt("Ваше число?");
+  if (a<b){
       return a;
-    } else {
+  }
+  else{
       return b;
-    }
-    
-    
+  }
 }
-
-min(5,9);
+alert(checkMin())

@@ -4,7 +4,7 @@ function personInfo(names,surname ,age,cat){
   age=+prompt("Возраст:");
   cat= prompt('Есть кошка?');
 
-  let Info = [names,surname,age,cat]
+  let Info = [names,surname,age,cat];
 
   console.log(Info.slice())
 }
