@@ -25,3 +25,22 @@ document.querySelector('#login-sumbit').onclick = function(event)  {
 
     }
 }
+
+//HTTP METHOD
+
+/*const url ='https://jsonplaceholder.typicode.com/usersle';
+
+const reguest = new XMLHttpRequest();
+
+reguest.open('GET',url);
+
+reguest.send();
+
+reguest.onload =function(){
+   const data =JSON.parse(reguest.response);
+    if(reguest.status = !200){
+        alert('ERROR',reguest.statusText)
+    }else {
+        console.log(reguest.response)
+    }
+}*/
