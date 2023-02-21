@@ -1,0 +1,25 @@
+.current{
+    background: linear-gradient(65deg,rgb(181, 12, 215), rgb(223, 75, 11),rgb(40, 225, 77));
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.current{
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-around;
+
+}
+
+.currency {
+    border-right:3px black solid ;
+    padding-right: 10px;
+}
+
+.lo {
+    border-right: none;
+}
